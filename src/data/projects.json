@@ -1,0 +1,100 @@
+[
+  {
+    "id": 1,
+    "title": "Peer-to-Peer Delivery App",
+    "description": "Real-time campus food delivery tracking with instant peer chat",
+    "detailedDescription": "Built a peer-to-peer delivery platform enabling real-time campus food delivery tracking and instant communication between users. The system architecture leverages WebSockets for real-time updates and Firebase for reliable data synchronization. Token-based authentication ensures secure access control, while optimized API integrations minimize latency. The platform demonstrates strong full-stack capabilities with emphasis on real-time data handling and security.",
+    "technologies": ["React.js", "Node.js", "PostgreSQL", "Firebase", "WebSockets"],
+    "features": [
+      "Real-time delivery tracking using WebSockets for sub-second updates",
+      "Instant peer-to-peer chat system with message persistence",
+      "Token-based authentication reducing unauthorized access by 30%",
+      "Optimized API integrations for database queries and Firebase sync",
+      "PostgreSQL schema design for scalable order and user management",
+      "Responsive UI supporting concurrent users during peak hours"
+    ],
+    "impact": [
+      "Increased user retention by 25% through improved reliability",
+      "Reduced unauthorized logins by 30% with enhanced auth layer",
+      "Achieved platform trust metrics exceeding initial benchmarks"
+    ],
+    "challenges": [
+      "Implementing efficient WebSocket connection pooling for scalability",
+      "Designing token refresh mechanism to balance security and UX",
+      "Optimizing PostgreSQL queries to handle concurrent read/write operations"
+    ],
+    "security": [
+      "JWT-based authentication with secure token storage",
+      "Input validation and sanitization to prevent injection attacks",
+      "Rate limiting on API endpoints to prevent abuse"
+    ],
+    "githubUrl": null,
+    "liveUrl": null
+  },
+  {
+    "id": 2,
+    "title": "CodeVault - Full-Stack Coding Practice Platform",
+    "description": "Robust coding practice platform with Docker-powered automated evaluation",
+    "detailedDescription": "Developed a comprehensive coding practice platform featuring secure authentication, automated code evaluation, and real-time compilation. The system uses Docker containers for sandboxed code execution, supporting 15+ programming problems with rigorous test case validation. Backend architecture handles code submission queuing, execution orchestration, and result aggregation. The platform includes an interactive dashboard for tracking user progress and performance metrics across multiple programming challenges.",
+    "technologies": ["React.js", "Node.js", "Docker", "Firebase", "Express"],
+    "features": [
+      "Firebase authentication with secure session management",
+      "Docker-based code runner executing in isolated containers",
+      "Support for 15+ programming problems with comprehensive test suites",
+      "Real-time code compilation with 10-second execution timeout",
+      "Interactive dashboard tracking problem completion and performance",
+      "Automated test case validation with detailed feedback"
+    ],
+    "impact": [
+      "Delivered robust platform supporting multiple concurrent code executions",
+      "Enabled automated assessment reducing manual evaluation overhead",
+      "Achieved sandbox security with containerized execution environment"
+    ],
+    "challenges": [
+      "Implementing secure Docker container orchestration for untrusted code",
+      "Designing timeout and resource limit mechanisms to prevent infinite loops",
+      "Building efficient test case runner with detailed error reporting"
+    ],
+    "security": [
+      "Sandboxed code execution preventing system-level access",
+      "Resource constraints (CPU, memory, time) on code execution",
+      "Input sanitization for code submissions to prevent injection"
+    ],
+    "githubUrl": null,
+    "liveUrl": null
+  },
+  {
+    "id": 3,
+    "title": "Web Intrusion Detector – Browser Security Extension",
+    "description": "Real-time Chrome extension detecting SQL injection, malicious redirects, and suspicious network activity",
+    "detailedDescription": "Engineered a Chrome Manifest V3 security extension providing real-time detection of web-based attacks including SQL injection attempts, malicious redirects, high-volume network requests, and disguised downloads. The architecture employs a dual-layer approach: background service workers analyze network traffic patterns while content scripts monitor DOM manipulation and page behavior. A rules-based detection engine with event-driven listeners enables continuous monitoring with minimal performance overhead. Optimized for accuracy without disrupting normal browsing activity.",
+    "technologies": ["JavaScript", "Chrome Manifest V3 API", "Service Workers", "Content Scripts"],
+    "features": [
+      "Real-time SQL injection pattern detection in form inputs and URLs",
+      "Malicious redirect identification through URL reputation analysis",
+      "High-volume network request monitoring for potential DDoS or data exfiltration",
+      "Disguised download detection via MIME type and filename analysis",
+      "Dual-layer architecture with background workers and content scripts",
+      "Rules-based detection engine with customizable threat signatures"
+    ],
+    "impact": [
+      "Optimized detection accuracy with minimal false positives",
+      "Achieved continuous monitoring with negligible browsing overhead",
+      "Demonstrated security engineering capabilities at browser level"
+    ],
+    "challenges": [
+      "Designing efficient pattern matching for SQL injection without regex overhead",
+      "Implementing isolated architecture compliant with Manifest V3 security model",
+      "Balancing detection sensitivity with performance constraints"
+    ],
+    "security": [
+      "Isolated service worker architecture preventing extension compromise",
+      "Event-driven listeners avoiding polling-based resource consumption",
+      "Privacy-focused design with no external data transmission"
+    ],
+    "githubUrl": "https://github.com/username/recipe-finder",
+    "liveUrl": "https://example-recipes.com"
+  }
+    
+  
+]

@@ -1,0 +1,66 @@
+[
+  {
+    "id": 1,
+    "category": "professional",
+    "name": "Software Engineer",
+    "issuer": "HackerRank",
+    "date": null,
+    "credentialUrl": "https://www.hackerrank.com/certificates"
+  },
+  {
+    "id": 2,
+    "category": "professional",
+    "name": "Software Engineering Intern",
+    "issuer": "HackerRank",
+    "date": null,
+    "credentialUrl": "https://www.hackerrank.com/certificates"
+  },
+  {
+    "id": 3,
+    "category": "technical",
+    "name": "Problem Solving (Basic)",
+    "issuer": "HackerRank",
+    "date": null,
+    "credentialUrl": "https://www.hackerrank.com/certificates"
+  },
+  {
+    "id": 4,
+    "category": "technical",
+    "name": "Python",
+    "issuer": "HackerRank",
+    "date": null,
+    "credentialUrl": "https://www.hackerrank.com/certificates"
+  },
+  {
+    "id": 5,
+    "category": "technical",
+    "name": "React",
+    "issuer": "HackerRank",
+    "date": null,
+    "credentialUrl": "https://www.hackerrank.com/certificates"
+  },
+  {
+    "id": 6,
+    "category": "technical",
+    "name": "POSTMAN API Fundamentals Student Expert",
+    "issuer": "Postman",
+    "date": null,
+    "credentialUrl": "https://www.postman.com/student-program/"
+  },
+  {
+    "id": 7,
+    "category": "technical",
+    "name": "JavaScript Algorithms and Data Structures",
+    "issuer": "freeCodeCamp",
+    "date": null,
+    "credentialUrl": "https://www.freecodecamp.org/certification"
+  },
+  {
+    "id": 8,
+    "category": "simulation",
+    "name": "Software Engineering Simulation",
+    "issuer": "Forage - Commonwealth Bank",
+    "date": null,
+    "credentialUrl": "https://www.theforage.com/"
+  }
+]

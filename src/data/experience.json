@@ -1,0 +1,43 @@
+[
+  
+  {
+    "id": 1,
+    "position": "Full Stack Intern",
+    "company": "Tata Steel",
+    "duration": "May 2024 – June 2024",
+    "description": "Developed a custom chatbot integrating 5+ databases using full-stack technologies. Handled both frontend and backend development, API integration, and database operations. Delivered project 2 weeks ahead of schedule with extensive debugging and testing.",
+    "responsibilities": [
+      "Full-stack chatbot development (React.js, Node.js, Express, PostgreSQL)",
+      "API integration across 5+ databases",
+      "Frontend and backend implementation",
+      "Database query optimization",
+      "Debugging and testing"
+    ],
+    "technicalDetails": [
+      "Contributed 1,000+ lines of production code",
+      "Integrated APIs to fetch data from multiple database sources",
+      "Improved chatbot response time through query optimization",
+      "Completed comprehensive testing ensuring functionality and reliability"
+    ]
+  },{
+    "id": 2,
+    "position": "Information System Security Intern",
+    "company": "Bharat Petroleum Corporation Ltd",
+    "duration": "May 2025 – June 2025",
+    "description": "Worked on enterprise security infrastructure including EDR tools, SIEM-based threat detection, and SOC operations. Contributed to security architecture design implementing Zero Trust principles and cloud proxy configurations. Gained hands-on experience with threat frameworks, firewall configuration, and email security protocols.",
+    "responsibilities": [
+      "EDR tools and SIEM-based threat detection",
+      "SOC operations and log analysis",
+      "MITRE ATT&CK and Cyber Kill Chain frameworks",
+      "Zero Trust architecture and cloud proxy implementation",
+      "UTP firewall configuration",
+      "Email security protocols (DMARC, SPF, DKIM, BIMI)"
+    ],
+    "technicalDetails": [
+      "Analyzed security logs to identify threat patterns and anomalies",
+      "Configured enterprise firewall rules for network segmentation",
+      "Strengthened email authentication reducing phishing susceptibility",
+      "Applied Zero Trust principles to access control design"
+    ]
+  }
+]
