@@ -6,8 +6,8 @@
     "detailedDescription": "Built a peer-to-peer delivery platform enabling real-time campus food delivery tracking and instant communication between users. The system architecture leverages WebSockets for real-time updates and Firebase for reliable data synchronization. Token-based authentication ensures secure access control, while optimized API integrations minimize latency. The platform demonstrates strong full-stack capabilities with emphasis on real-time data handling and security.",
     "technologies": ["React.js", "Node.js", "PostgreSQL", "Firebase", "WebSockets"],
     "features": [
-      "Real-time delivery tracking using WebSockets for sub-second updates",
-      "Instant peer-to-peer chat system with message persistence",
+      "Uses a fast PostgreSQL CTE to efficiently match pending requests and deliveries, updating statuses only if a valid match is found.",
+      "Implements a real-time chat system over WebSockets, providing sub-second message delivery with full persistence.",  
       "Token-based authentication reducing unauthorized access by 30%",
       "Optimized API integrations for database queries and Firebase sync",
       "PostgreSQL schema design for scalable order and user management",
@@ -27,6 +27,11 @@
       "JWT-based authentication with secure token storage",
       "Input validation and sanitization to prevent injection attacks",
       "Rate limiting on API endpoints to prevent abuse"
+    ],
+    "screenshots": [
+      "project 1- 1.png",
+      "project 1-2.png",
+      "project 1-3.png"
     ],
     "githubUrl": null,
     "liveUrl": null
@@ -60,6 +65,11 @@
       "Resource constraints (CPU, memory, time) on code execution",
       "Input sanitization for code submissions to prevent injection"
     ],
+    "screenshots": [
+      "project 2-1.png",
+      "project 2-2.png",
+      "project 2-4.png"
+    ],
     "githubUrl": null,
     "liveUrl": null
   },
@@ -92,8 +102,7 @@
       "Event-driven listeners avoiding polling-based resource consumption",
       "Privacy-focused design with no external data transmission"
     ],
-    "githubUrl": "https://github.com/username/recipe-finder",
-    "liveUrl": "https://example-recipes.com"
+    "githubUrl": "https://github.com/username/recipe-finder"
   }
     
   

@@ -46,14 +46,15 @@ const Home = () => {
           </div>
           <p className="hero-intro">
             Computer Science undergraduate specializing in Cyber Security at
-            Shiv Nadar University. My jam? Full-stack development,
-            cybersecurity, and building software that's both powerful and
-            secure. Always hunting for real-world problems ripe for smart
-            solutions. SOC operations and EDR tools are my playground – security
-            operations where I learn, experiment, and unleash my inner geek.
-            Creative, driven, and maybe a little obsessed with making the
-            digital world a more secure place through code? That's me. Let's
-            connect!
+            Computer Science undergraduate specializing in Cyber Security at
+            Shiv Nadar University. My daily bread is full-stack development,
+            cybersecurity, and building software that’s powerful and secure. I
+            focus on real-world problems that demand practical, well-reasoned
+            solutions. Blockchain systems and decentralized architectures deeply
+            interest me—especially how trust, security, and scalability work
+            without central control. Driven by logic and systems thinking, I
+            build secure software, if that’s what you’re looking for, let’s
+            connect.
           </p>
           <div className="hero-buttons">
             <a href="#contact" className="hero-btn hero-btn-light">
@@ -68,7 +69,7 @@ const Home = () => {
               <i className="bi bi-github"></i> GitHub
             </a>
             <a
-              href="https://linkedin.com/in/aravind-srinivasan/"
+              href="https://www.linkedin.com/in/aravind-srinivasan-87200225a/"
               target="_blank"
               rel="noopener noreferrer"
               className="hero-btn hero-btn-dark"
@@ -81,131 +82,147 @@ const Home = () => {
 
       {/* About Section */}
       <section id="about" className="about-hero">
-        <div className="container-xxl px-4">
-          <div className="about-hero-shell">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="about-hero-shell" style={{ transform: "scale(0.9)" }}>
             <div className="about-hero-grid" aria-hidden="true" />
-            <div className="row g-5 align-items-center position-relative">
-              <div className="col-lg-6">
-                <div className="about-hero-left">
-                  <h2 className="about-hero-title">About</h2>
-                  <p className="about-hero-subtitle">
-                    A quick snapshot of what I build and how I work.
+            <div className="relative grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
+              {/* Left Column - Text Content */}
+              <div>
+                <h2
+                  className="text-4xl lg:text-5xl font-extrabold tracking-tight mb-2"
+                  style={{ color: "var(--heading-color)" }}
+                >
+                  About
+                </h2>
+                <p
+                  className="text-lg font-medium mt-2 mb-7 opacity-70"
+                  style={{ color: "var(--body-color)" }}
+                >
+                  A quick snapshot of what I build and how I work.
+                </p>
+
+                <div
+                  className="max-w-2xl space-y-3 text-lg leading-relaxed opacity-80"
+                  style={{
+                    color: "var(--body-color)",
+                    fontSize: "1.04rem",
+                    lineHeight: "1.85",
+                  }}
+                >
+                  <p>
+                    I’m a Computer Science undergraduate specializing in Cyber
+                    Security with hands-on experience building production-ready
+                    web applications and security engineering workflows.
                   </p>
+                  <p>
+                    I’ve worked on SOC operations, SIEM-driven threat detection,
+                    and EDR tooling, and I enjoy translating security
+                    requirements into practical engineering decisions.
+                  </p>
+                  <p>
+                    On the software side, I build full-stack solutions with
+                    clean APIs, reliable data layers, and performance-aware
+                    implementations—always with a security mindset. I’m also
+                    deeply interested in blockchain and decentralized systems,
+                    particularly how cryptography, trust, and security are
+                    engineered without centralized control.
+                  </p>
+                </div>
 
-                  <div className="about-hero-copy">
-                    <p className="mb-3">
-                      I’m a Computer Science undergraduate specializing in Cyber
-                      Security with hands-on experience building
-                      production-ready web applications and security engineering
-                      workflows.
-                    </p>
-                    <p className="mb-3">
-                      I’ve worked on SOC operations, SIEM-driven threat
-                      detection, and EDR tooling, and I enjoy translating
-                      security requirements into practical engineering
-                      decisions.
-                    </p>
-                    <p className="mb-0">
-                      On the software side, I build full-stack solutions with
-                      clean APIs, reliable data layers, and performance-aware
-                      implementations — always with a security mindset.
-                    </p>
-                  </div>
-
-                  <div className="about-timeline" aria-label="About highlights">
-                    <div className="about-timeline-item">
-                      <div className="about-timeline-kicker">Strengths</div>
-                      <div className="about-timeline-text">
-                        Building scalable features, writing maintainable code,
-                        and solving problems under constraints.
-                      </div>
+                {/* Strengths & Focus Timeline */}
+                <div className="about-timeline" aria-label="About highlights">
+                  <div className="about-timeline-item">
+                    <div className="about-timeline-kicker">Strengths</div>
+                    <div className="about-timeline-text">
+                      Building scalable features, writing maintainable code, and
+                      solving problems under constraints.
                     </div>
-                    <div className="about-timeline-item">
-                      <div className="about-timeline-kicker">Focus</div>
-                      <div className="about-timeline-text">
-                        Clean architecture, measurable impact, and secure-by-
-                        default patterns.
-                      </div>
+                  </div>
+                  <div className="about-timeline-item">
+                    <div className="about-timeline-kicker">Focus</div>
+                    <div className="about-timeline-text">
+                      Clean architecture, measurable impact, and secure-by-
+                      default patterns.
                     </div>
                   </div>
                 </div>
               </div>
 
-              <div className="col-lg-6">
-                <div className="about-hero-right">
-                  <div className="about-panels" aria-label="Skills">
-                    <div className="about-panel about-panel-core">
-                      <div className="about-panel-head">
-                        <div className="about-panel-step">
-                          <span className="about-panel-label">Core</span>
-                          <span className="about-panel-icon" aria-hidden="true">
-                            <i className="bi bi-braces"></i>
-                          </span>
-                        </div>
-                        <div className="about-panel-title">Languages</div>
-                      </div>
-                      <div className="about-chip-wrap">
-                        {[
-                          "Python",
-                          "Java",
-                          "C",
-                          "JavaScript",
-                          "SQL",
-                          "Solidity",
-                        ].map((skill) => (
-                          <span key={skill} className="about-chip">
-                            {skill}
-                          </span>
-                        ))}
-                      </div>
+              {/* Right Column - Skills Panels */}
+              <div className="flex flex-col gap-8" style={{ marginTop: "10%" }}>
+                {/* Core / Languages Panel */}
+                <div className="about-panel about-panel-core">
+                  <div className="about-panel-head">
+                    <div className="about-panel-step">
+                      <span className="about-panel-label">CORE</span>
+                      <span className="about-panel-icon" aria-hidden="true">
+                        <i className="bi bi-braces"></i>
+                      </span>
                     </div>
+                    <div className="about-panel-title">Languages</div>
+                  </div>
+                  <div className="about-chip-wrap">
+                    {[
+                      "Python",
+                      "Java",
+                      "C",
+                      "JavaScript",
+                      "SQL",
+                      "Solidity",
+                    ].map((skill) => (
+                      <span key={skill} className="about-chip">
+                        {skill}
+                      </span>
+                    ))}
+                  </div>
+                </div>
 
-                    <div className="about-panel about-panel-build">
-                      <div className="about-panel-head">
-                        <div className="about-panel-step">
-                          <span className="about-panel-label">Build</span>
-                          <span className="about-panel-icon" aria-hidden="true">
-                            <i className="bi bi-box"></i>
-                          </span>
-                        </div>
-                        <div className="about-panel-title">Technologies</div>
-                      </div>
-                      <div className="about-chip-wrap">
-                        {[
-                          "React.js",
-                          "Node.js",
-                          "Express",
-                          "PostgreSQL",
-                          "Firebase",
-                          "Docker",
-                        ].map((skill) => (
-                          <span key={skill} className="about-chip">
-                            {skill}
-                          </span>
-                        ))}
-                      </div>
+                {/* Build / Technologies Panel */}
+                <div className="about-panel about-panel-build">
+                  <div className="about-panel-head">
+                    <div className="about-panel-step">
+                      <span className="about-panel-label">BUILD</span>
+                      <span className="about-panel-icon" aria-hidden="true">
+                        <i className="bi bi-box"></i>
+                      </span>
                     </div>
+                    <div className="about-panel-title">Technologies</div>
+                  </div>
+                  <div className="about-chip-wrap">
+                    {[
+                      "React.js",
+                      "Node.js",
+                      "Express",
+                      "PostgreSQL",
+                      "Firebase",
+                      "Docker",
+                    ].map((skill) => (
+                      <span key={skill} className="about-chip">
+                        {skill}
+                      </span>
+                    ))}
+                  </div>
+                </div>
 
-                    <div className="about-panel about-panel-defend">
-                      <div className="about-panel-head">
-                        <div className="about-panel-step">
-                          <span className="about-panel-label">Defend</span>
-                          <span className="about-panel-icon" aria-hidden="true">
-                            <i className="bi bi-shield-check"></i>
-                          </span>
-                        </div>
-                        <div className="about-panel-title">Security</div>
-                      </div>
-                      <div className="about-chip-wrap">
-                        {["EDR", "SIEM", "Firewalls", "SOC", "Zero Trust"].map(
-                          (skill) => (
-                            <span key={skill} className="about-chip">
-                              {skill}
-                            </span>
-                          )
-                        )}
-                      </div>
+                {/* Defend / Security Panel */}
+                <div className="about-panel about-panel-defend">
+                  <div className="about-panel-head">
+                    <div className="about-panel-step">
+                      <span className="about-panel-label">DEFEND</span>
+                      <span className="about-panel-icon" aria-hidden="true">
+                        <i className="bi bi-shield-check"></i>
+                      </span>
                     </div>
+                    <div className="about-panel-title">Security</div>
+                  </div>
+                  <div className="about-chip-wrap">
+                    {["EDR", "SIEM", "Firewalls", "SOC", "Zero Trust"].map(
+                      (skill) => (
+                        <span key={skill} className="about-chip">
+                          {skill}
+                        </span>
+                      )
+                    )}
                   </div>
                 </div>
               </div>
@@ -215,34 +232,41 @@ const Home = () => {
       </section>
 
       {/* Projects Section */}
-      <section id="projects" className="py-5 bg-light">
-        <div className="container">
-          <h2 className="mb-4">Projects</h2>
-          <div className="row g-4">
+      <section
+        id="projects"
+        className="py-20"
+        style={{ backgroundColor: "var(--bg-subtle)" }}
+      >
+        <div className="container mx-auto px-4">
+          <h2
+            className="text-3xl font-bold mb-8"
+            style={{ color: "var(--heading-color)" }}
+          >
+            Projects
+          </h2>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {projects.map((project) => (
-              <div key={project.id} className="col-md-6 col-lg-4">
-                <div className="card h-100 shadow-sm">
-                  <div className="card-body d-flex flex-column">
+              <div key={project.id} className="flex flex-col">
+                <div className="card h-full flex flex-col">
+                  <div className="card-body flex flex-col flex-grow">
                     <h5 className="card-title">{project.title}</h5>
-                    <p className="card-text text-muted">
-                      {project.description}
-                    </p>
-                    <div className="mb-3">
+                    <p className="text-muted mb-4">{project.description}</p>
+                    <div className="mb-4">
                       {project.technologies.map((tech, index) => (
                         <span
                           key={index}
-                          className="badge bg-secondary me-1 mb-1"
+                          className="inline-block bg-gray-500 text-white text-xs font-semibold px-2.5 py-1 rounded mr-1 mb-1"
                         >
                           {tech}
                         </span>
                       ))}
                     </div>
                     {project.impact && project.impact.length > 0 && (
-                      <div className="mb-3">
-                        <small className="text-success fw-bold">
+                      <div className="mb-4">
+                        <small className="text-success font-bold">
                           <i className="bi bi-graph-up"></i> Impact:
                         </small>
-                        <ul className="small mb-0 mt-1">
+                        <ul className="text-sm mb-0 mt-1 list-disc list-inside">
                           {project.impact.slice(0, 2).map((item, idx) => (
                             <li key={idx}>{item}</li>
                           ))}
@@ -251,7 +275,7 @@ const Home = () => {
                     )}
                     <Link
                       to={`/projects/${project.id}`}
-                      className="btn btn-primary mt-auto"
+                      className="mt-auto inline-block text-center bg-primary text-white font-medium py-2 px-4 rounded hover:bg-blue-700 transition-colors"
                     >
                       View Details
                     </Link>
@@ -286,7 +310,7 @@ const Home = () => {
                   <div className="timeline-node" aria-hidden="true" />
 
                   <div className="card timeline-card shadow-sm">
-                    <div className="card-body">
+                    <div className="p-6">
                       <div className="timeline-card-head">
                         <div>
                           <h5 className="timeline-role mb-1">{exp.position}</h5>
@@ -313,12 +337,12 @@ const Home = () => {
                       </p>
 
                       <div className="mt-3">
-                        <strong className="d-block mb-2">
+                        <strong className="block mb-2">
                           Key Responsibilities:
                         </strong>
-                        <div className="d-flex flex-wrap gap-2">
+                        <div className="flex flex-wrap gap-2">
                           {exp.responsibilities.map((resp, idx) => (
-                            <span key={idx} className="badge timeline-chip">
+                            <span key={idx} className="timeline-chip">
                               {resp}
                             </span>
                           ))}
@@ -327,12 +351,12 @@ const Home = () => {
 
                       {exp.technicalDetails && (
                         <div className="mt-3">
-                          <strong className="d-block mb-2">
+                          <strong className="block mb-2">
                             Technical Details:
                           </strong>
                           <ul className="mb-0">
                             {exp.technicalDetails.map((detail, idx) => (
-                              <li key={idx} className="small">
+                              <li key={idx} className="text-sm">
                                 {detail}
                               </li>
                             ))}
@@ -349,43 +373,61 @@ const Home = () => {
       </section>
 
       {/* Achievements & Certifications Section */}
-      <section id="achievements" className="py-5 bg-light">
-        <div className="container">
-          <h2 className="mb-4">Achievements & Certifications</h2>
+      <section
+        id="achievements"
+        className="py-20"
+        style={{ backgroundColor: "var(--bg-subtle)" }}
+      >
+        <div className="container mx-auto px-4">
+          <h2
+            className="text-3xl font-bold mb-8"
+            style={{ color: "var(--heading-color)" }}
+          >
+            Achievements & Certifications
+          </h2>
 
           {/* LeetCode Achievements */}
-          <div className="mb-5">
-            <h4 className="mb-3">
+          <div className="mb-12">
+            <h4 className="text-xl font-semibold mb-6">
               <i className="bi bi-trophy-fill text-warning"></i> Competitive
               Programming
             </h4>
             <div className="card shadow-sm">
               <div className="card-body">
-                <div className="row text-center">
-                  <div className="col-md-4 mb-3 mb-md-0">
+                <div className="grid grid-cols-1 md:grid-cols-3 text-center">
+                  <div className="mb-6 md:mb-0">
                     <div className="p-3">
-                      <h2 className="text-primary fw-bold mb-0">1658</h2>
+                      <h2 className="text-primary text-4xl font-bold mb-0">
+                        1658
+                      </h2>
                       <p className="text-muted mb-0">Peak Rating</p>
                       <small className="text-success">Top 16% Globally</small>
                     </div>
                   </div>
-                  <div className="col-md-4 mb-3 mb-md-0 border-start border-end">
+                  <div
+                    className="mb-6 md:mb-0 md:border-l md:border-r"
+                    style={{ borderColor: "var(--border-color)" }}
+                  >
                     <div className="p-3">
-                      <h2 className="text-primary fw-bold mb-0">650+</h2>
+                      <h2 className="text-primary text-4xl font-bold mb-0">
+                        650+
+                      </h2>
                       <p className="text-muted mb-0">Problems Solved</p>
                       <small>Arrays, DP, Graphs, Data Structures</small>
                     </div>
                   </div>
-                  <div className="col-md-4">
+                  <div>
                     <div className="p-3">
-                      <h2 className="text-primary fw-bold mb-0">LeetCode</h2>
+                      <h2 className="text-primary text-4xl font-bold mb-0">
+                        LeetCode
+                      </h2>
                       <p className="text-muted mb-0">Platform</p>
                       <small>Contest Participant</small>
                     </div>
                   </div>
                 </div>
-                <div className="mt-3 text-center">
-                  <p className="mb-0 fst-italic">
+                <div className="mt-6 text-center">
+                  <p className="mb-0 italic">
                     Demonstrated strong analytical and problem-solving skills by
                     applying efficient algorithms under time constraints
                   </p>
@@ -396,11 +438,11 @@ const Home = () => {
 
           {/* Certifications */}
           <div>
-            <h4 className="mb-3">
+            <h4 className="text-xl font-semibold mb-6">
               <i className="bi bi-patch-check-fill text-success"></i>{" "}
               Certifications
             </h4>
-            <div className="row g-3">
+            <div className="space-y-4" style={{ transform: "scale(0.95)" }}>
               {/* Group certifications by category */}
               {["professional", "technical", "simulation"].map((category) => {
                 const categoryCerts = certificates.filter(
@@ -409,29 +451,29 @@ const Home = () => {
                 if (categoryCerts.length === 0) return null;
 
                 return (
-                  <div key={category} className="col-12">
-                    <h6 className="text-uppercase text-muted mb-2">
+                  <div key={category}>
+                    <h6 className="text-sm uppercase text-muted mb-4 font-semibold">
                       {category === "professional"
                         ? "Professional Certifications"
                         : category === "technical"
                         ? "Technical Certifications"
                         : "Industry Simulations"}
                     </h6>
-                    <div className="row g-3">
+                    <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                       {categoryCerts.map((cert) => (
-                        <div key={cert.id} className="col-md-6">
-                          <div className="card h-100">
+                        <div key={cert.id}>
+                          <div className="card h-full">
                             <div className="card-body">
-                              <h6 className="card-title">{cert.name}</h6>
-                              <p className="card-text text-muted mb-2">
-                                {cert.issuer}
-                              </p>
+                              <h6 className="card-title text-base">
+                                {cert.name}
+                              </h6>
+                              <p className="text-muted mb-4">{cert.issuer}</p>
                               {cert.credentialUrl && (
                                 <a
                                   href={cert.credentialUrl}
                                   target="_blank"
                                   rel="noopener noreferrer"
-                                  className="btn btn-sm btn-outline-primary"
+                                  className="inline-block border border-primary text-primary px-3 py-1.5 text-sm rounded hover:bg-primary hover:text-white transition-colors"
                                 >
                                   View Credential
                                 </a>
@@ -450,47 +492,72 @@ const Home = () => {
       </section>
 
       {/* Contact Section */}
-      <section id="contact" className="py-5">
-        <div className="container text-center">
-          <h2 className="mb-4">Contact</h2>
-          <p className="lead mb-4">
+      <section
+        id="contact"
+        className="py-20"
+        style={{ backgroundColor: "var(--body-bg)" }}
+      >
+        <div className="container mx-auto px-4 text-center">
+          <h2
+            className="text-3xl font-bold mb-8"
+            style={{ color: "var(--heading-color)" }}
+          >
+            Contact
+          </h2>
+          <p className="text-xl mb-8" style={{ color: "var(--body-color)" }}>
             Open to opportunities in software engineering and cybersecurity
             roles.
           </p>
-          <div className="row justify-content-center">
-            <div className="col-md-8">
-              <div className="d-flex flex-column gap-3">
+          <div className="flex justify-center">
+            <div className="w-full md:w-2/3">
+              <div className="flex flex-col gap-6">
                 <div>
-                  <i className="bi bi-envelope-fill fs-4 text-primary"></i>
+                  <i className="bi bi-envelope-fill text-4xl text-primary"></i>
                   <p className="mb-0 mt-2">
                     <a
                       href="mailto:aravindx04@gmail.com"
-                      className="text-decoration-none"
+                      className="no-underline hover:underline"
+                      style={{ color: "var(--body-color)" }}
                     >
                       aravindx04@gmail.com
                     </a>
                   </p>
                 </div>
                 <div>
-                  <i className="bi bi-telephone-fill fs-4 text-primary"></i>
-                  <p className="mb-0 mt-2">+91-86086 79096</p>
+                  <i className="bi bi-telephone-fill text-4xl text-primary"></i>
+                  <p
+                    className="mb-0 mt-2"
+                    style={{ color: "var(--body-color)" }}
+                  >
+                    +91-86086 79096
+                  </p>
                 </div>
-                <div className="mt-3">
+                <div className="mt-6 flex flex-col sm:flex-row gap-4 justify-center">
                   <a
                     href="https://github.com/notaaaaaaa"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="btn btn-dark btn-lg me-3"
+                    className="inline-flex items-center justify-center gap-2 font-semibold py-3 px-8 text-lg rounded-lg shadow-md hover:shadow-lg transition-all duration-300 hover:scale-105"
+                    style={{
+                      backgroundColor: "var(--heading-color)",
+                      color: "var(--body-bg)",
+                      border: "2px solid var(--heading-color)",
+                    }}
                   >
-                    <i className="bi bi-github"></i> GitHub
+                    <i className="bi bi-github text-xl"></i> GitHub
                   </a>
                   <a
-                    href="https://linkedin.com/in/aravind-srinivasan/"
+                    href="https://www.linkedin.com/in/aravind-srinivasan-87200225a/"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="btn btn-primary btn-lg"
+                    className="inline-flex items-center justify-center gap-2 font-semibold py-3 px-8 text-lg rounded-lg shadow-md hover:shadow-lg transition-all duration-300 hover:scale-105"
+                    style={{
+                      backgroundColor: "#0077b5",
+                      color: "var(--body-bg)",
+                      border: "2px solid #0077b5",
+                    }}
                   >
-                    <i className="bi bi-linkedin"></i> LinkedIn
+                    <i className="bi bi-linkedin text-xl"></i> LinkedIn
                   </a>
                 </div>
               </div>

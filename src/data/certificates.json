@@ -5,7 +5,7 @@
     "name": "Software Engineer",
     "issuer": "HackerRank",
     "date": null,
-    "credentialUrl": "https://www.hackerrank.com/certificates"
+    "credentialUrl": "https://www.hackerrank.com/certificates/b0040cedbbe7"
   },
   {
     "id": 2,
@@ -13,7 +13,7 @@
     "name": "Software Engineering Intern",
     "issuer": "HackerRank",
     "date": null,
-    "credentialUrl": "https://www.hackerrank.com/certificates"
+    "credentialUrl": "https://www.hackerrank.com/certificates/8512583dd3b2"
   },
   {
     "id": 3,
@@ -21,7 +21,7 @@
     "name": "Problem Solving (Basic)",
     "issuer": "HackerRank",
     "date": null,
-    "credentialUrl": "https://www.hackerrank.com/certificates"
+    "credentialUrl": "https://www.hackerrank.com/certificates/62bc52d9cb5b"
   },
   {
     "id": 4,
@@ -29,7 +29,7 @@
     "name": "Python",
     "issuer": "HackerRank",
     "date": null,
-    "credentialUrl": "https://www.hackerrank.com/certificates"
+    "credentialUrl": "https://www.hackerrank.com/certificates/491f2f5de2f2" 
   },
   {
     "id": 5,
@@ -37,7 +37,7 @@
     "name": "React",
     "issuer": "HackerRank",
     "date": null,
-    "credentialUrl": "https://www.hackerrank.com/certificates"
+    "credentialUrl": "https://www.hackerrank.com/certificates/cb148239217a"
   },
   {
     "id": 6,
@@ -45,7 +45,7 @@
     "name": "POSTMAN API Fundamentals Student Expert",
     "issuer": "Postman",
     "date": null,
-    "credentialUrl": "https://www.postman.com/student-program/"
+    "credentialUrl": "https://badges.parchment.com/public/assertions/gqE0Z7-QSyWV1L6F7FJsoQ?identity__email=aravindgod04@gmail.com"
   },
   {
     "id": 7,
@@ -53,7 +53,7 @@
     "name": "JavaScript Algorithms and Data Structures",
     "issuer": "freeCodeCamp",
     "date": null,
-    "credentialUrl": "https://www.freecodecamp.org/certification"
+    "credentialUrl": "https://www.freecodecamp.org/certification/not_aravind/javascript-algorithms-and-data-structures-v8"
   },
   {
     "id": 8,
@@ -61,6 +61,6 @@
     "name": "Software Engineering Simulation",
     "issuer": "Forage - Commonwealth Bank",
     "date": null,
-    "credentialUrl": "https://www.theforage.com/"
+    "credentialUrl": "https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/Commonwealth%20Bank/wJMjCSKFhuj97x6F3_Commonwealth%20Bank_9K7vsJdX5BPjNTkiZ_1724766522079_completion_certificate.pdf"
   }
 ]

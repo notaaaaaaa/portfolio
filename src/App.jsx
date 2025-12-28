@@ -10,9 +10,6 @@ import Home from "./pages/Home";
 import ProjectDetails from "./pages/ProjectDetails";
 import "./styles/custom.css";
 
-// Import Bootstrap JS for interactive components (navbar toggle, etc.)
-import "bootstrap/dist/js/bootstrap.bundle.min.js";
-
 function App() {
   return (
     <ThemeProvider>
